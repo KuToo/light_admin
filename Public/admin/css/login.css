@@ -1,0 +1,190 @@
+body{
+	background: url(../img/loginback.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 900px;
+	padding-top: 200px;
+}
+.login{
+	background: #fff;
+	margin: auto;
+	padding: 30px;
+	border-radius: 8px;
+	width: 400px;
+}
+.login h1{
+	color: #1e7aed;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.form-group{
+	margin-bottom: 20px;
+	}
+.propmt{
+	color: #CC0207;
+	font-size: 12px;
+	display: none;
+	margin-top: 5px;
+}
+.form-group label{
+	width: 100%;
+	color: #646464;
+	margin-bottom: 10px;
+	display: block;
+	padding-left: 5px;
+}
+.form-group input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ECECEC;
+	outline: none;
+	padding: 5px;
+}
+input::-webkit-input-placeholder{ 
+color: #a3a3a3; 
+} 
+input:-moz-placeholder{ 
+color: #a3a3a3; 
+} 
+input::-moz-placeholder { 
+color: #a3a3a3; 
+} 
+input:-ms-input-placeholder { 
+color: #a3a3a3; 
+} 
+.form-group input.checkbox{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.form-group em{
+	color: #888888;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.form-group .right{
+	color: #00A3FF;
+	font-size: 12px;
+	margin-top: 5px;
+	vertical-align: middle;
+}
+.form-group.yanzheng input{
+	width: 200px;
+}
+.form-group.yanzheng .div{
+	padding: 5px 0;
+	background: #00A3FF;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+	width: 135px;
+	text-align: center;
+	cursor: pointer;
+}
+.form-group.yanzheng .div.active{
+	background: #C9C9C9;
+}
+.btn{
+	background:#1e7aed;
+	color: #fff;
+	display: block;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 50px;
+	border:none;
+	width: 100%;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+}
+.goto-register{
+	text-align: center;
+	color: #888888;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.goto-register a{
+	color:#1e7aed ;
+	font-size: 14px;
+}
+/*查看ID页面*/
+.login-true{
+  width: 1200px;
+  padding-top: 90px;
+  position: fixed;
+  margin-left: -25%;
+  height: 800px;
+  left: 45%;
+  top:10%;
+  text-align: center;
+   background:#fff url(../img/true.png) no-repeat bottom;
+}
+.login-true h2 img{
+  width: 112px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.login-true h2 span{
+  font-size: 30px;
+  color: #767676;
+  margin-left: 20px
+}
+.login-true ul{
+  margin-top: 40px;
+}
+.login-true ul li{
+  line-height: 50px;
+}
+.login-true ul li.login-id,.login-true ul li.login-id b{
+  color: #767676;
+  font-size: 24px;
+  font-weight: normal;
+}
+.login-true ul li.login-nick,.login-true ul li.login-nick b{
+  color: #929292;
+  font-size: 18px;
+  font-weight: normal;
+}
+.login-true p{
+  color: #e83131;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.login-true a{
+  margin-top: 40px;
+  width: 358px;
+  display: inline-block;
+  background: #1E7AED;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  line-height: 54px;
+}
+/*全局弹窗*/
+.hui-mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left:0;
+   top:0;
+   background:rgba(0,0,0,0.4);
+   display: none;
+   z-index:999;
+}
+.result{
+	position: fixed;
+	left:45%;
+   top:30%;
+   background:#FFFFFF;
+   border-radius: 8px;
+   z-index:999;
+   font-size: 16px;
+   width: 300px;
+   line-height: 60px;
+   text-align: center;
+}
+.result.active{
+	color: #EA1010;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="维修,电脑,装软件">
+    <title>轻聊-CMS</title>
+		<link href="css/reset.css" rel="stylesheet">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+	<div class="header clear">
+		<h1 class="left"><a href="index.html"><img src="images/logo.png"/></a></h1>
+		<div class="right">
+			<img src="images/tou.png" alt="" />
+			<span>斯柯达</span>
+			<i class="iconfont icon-shouye"></i>
+			<i class="iconfont icon-tuichu1"></i>
+		</div>		
+	</div>
+	<div class="clear" id="hei">
+		<div class="left side">
+			<ul>
+				<li><a class="active" href=""><i class="use_icon"></i>用户管理</a></li>
+				<li><a href=""><i class="gro_icon"></i>群组管理</a></li>
+				<li><a href=""><i class="man_icon"></i>管理员管理</a></li>
+				<li><a href=""><i class="muban_icon"></i>模板管理</a></li>
+				<li><a href=""><i class="note_icon"></i>公告管理</a></li>
+			</ul>
+		</div>
+		<div class="left content">
+			<div class="breadcrumb">
+				<a href="index.html">首页</a>
+				<em>></em>
+				<a href="index.html">用户管理</a>
+				<em>></em>
+				<span>编辑用户</span>
+			</div>
+			<div class="user_manger">
+				<div class="edit_user">
+					<h5>用户资料修改</h5>
+					<form>
+						<div class="clear">
+							<label class="left">头像</label>
+							<div class="left">
+								<img src="images/tou.png" alt="" />
+								<label>
+									<i class="iconfont icon-zhaopian"></i>
+									<input style="display: none;" type="file" name="" id="" value="" />
+								</label>
+							</div>
+						</div>
+						<div class="clear">
+							<label class="left">昵称</label>
+							<input class="left" type="text" name="" id="" value="" />
+						</div>
+						<div class="clear">
+							<label class="left">性别</label>
+							<select class="left" name="">
+								<option value="">男</option>
+								<option value="">女</option>
+							</select>
+						</div>
+						<div class="clear">
+							<label class="left">电话</label>
+							<input class="left" type="number" name="" id="" value="" />
+						</div>
+						<div class="clear">
+							<label class="left">地址</label>
+							<input class="left" type="text" name="address" id="" value="" readonly />
+						</div>
+						<button type="submit">完成</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.3.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		 var w = document.documentElement.clientWidth;
+			if(w>1000){
+				window.onresize = getContentSize;
+			setInterval('getContentSize()',1);//自动刷新
+			function getContentSize() {
+	            var wh = document.documentElement.clientHeight;
+	            var ch=document.getElementById('hei');
+	            ch = (wh-58) + "px";
+	            document.getElementById( "hei" ).style.height = ch;
+			      }
+			     window.onresize = getContentSize;
+			}		
+	</script>
+</body>
+</html>
