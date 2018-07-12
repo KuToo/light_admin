@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="维修,电脑,装软件">
     <title>轻聊-CMS</title>
-		<link href="__PUBLIC__/admin/css/reset.css" rel="stylesheet">
+		<link href="/Public/admin/css/reset.css" rel="stylesheet">
     <link href="//at.alicdn.com/t/font_689059_7s52zbcnhom.css" rel="stylesheet">
-    <link href="__PUBLIC__/admin/css/style.css" rel="stylesheet">
+    <link href="/Public/admin/css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,9 +18,9 @@
   </head>
 <body>
 	<div class="header clear">
-		<h1 class="left"><a href="index.html"><img src="images/logo.png"/></a></h1>
+		<h1 class="left"><a href="index.html"><img src="/Public/admin/img/logo.png"/></a></h1>
 		<div class="right">
-			<img src="images/tou.png" alt="" />
+			<img src="/Public/admin/img/tou.png" alt="" />
 			<span>斯柯达</span>
 			<i class="iconfont icon-shouye"></i>
 			<i class="iconfont icon-tuichu1"></i>
@@ -29,7 +29,7 @@
 	<div class="clear" id="hei">
 		<div class="left side">
 			<ul>
-				<li><a class="active" href=""><i class="use_icon"></i>用户管理</a></li>
+				<li><a class="active" href="/Admin/User/index"><i class="use_icon"></i>用户管理</a></li>
 				<li><a href=""><i class="gro_icon"></i>群组管理</a></li>
 				<li><a href=""><i class="man_icon"></i>管理员管理</a></li>
 				<li><a href=""><i class="muban_icon"></i>模板管理</a></li>
@@ -72,7 +72,7 @@
 						<tbody>
 							<tr>
 								<td>5</td>
-								<td><img src="images/tou.png"/></td>
+								<td><img src="/Public/admin/img/tou.png"/></td>
 								<td>10005</td>
 								<td>手机壳</td>
 								<td>15062662547</td>
@@ -137,22 +137,22 @@
 		</form>
 	</div>
 	<div class="result true">
-		<img src="images/confirm.png"/>
+		<img src="/Public/admin/img/confirm.png"/>
 		<p>操作成功！</p>
 	</div>
 	<div class="result false">
-		<img src="images/false.png"/>
+		<img src="/Public/admin/img/false.png"/>
 		<p>操作失败，请重新操作！</p>
 	</div>
 	<div class="remove_psd">
-		<img src="images/remove.png"/>
+		<img src="/Public/admin/img/remove.png"/>
 		<p>是否确认重置密码？</p>
 		<button class="confirm">确定</button>
 		<button class="cancel">取消</button>
 	</div>
 	<div class="shade" onclick="cancel()"></div>
-	<script src="__PUBLIC__/admin/js/jquery-2.2.3.js"></script>
-	<script src="__PUBLIC__/admin/js/main.js"></script>
+	<script src="/Public/admin/js/jquery-2.2.3.js"></script>
+	<script src="/Public/admin/js/main.js"></script>
 	<script type="text/javascript">
 		 var w = document.documentElement.clientWidth;
 			if(w>1000){
