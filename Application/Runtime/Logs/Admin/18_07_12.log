@@ -18,3 +18,47 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2018-07-12T10:32:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Admin/View/Index/index.html
+
+[ 2018-07-12T10:34:53+08:00 ] 127.0.0.1 /Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-07-12T10:38:03+08:00 ] 127.0.0.1 /Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lc_user` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lc_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lc_user` ORDER BY reg_time desc LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lc_user_detail` [ RunTime:0.0020s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '119' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '118' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '117' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '116' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '115' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '114' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '113' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '112' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '110' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '109' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ud.sex,a1.area as pro,a2.area as city FROM lc_user_detail ud INNER JOIN lc_area a1 ON a1.id=ud.province INNER JOIN lc_area a2 ON a2.id=ud.city  WHERE `uid` = '108' LIMIT 1   [ RunTime:0.0000s ]
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Admin/View/User/index.html
+

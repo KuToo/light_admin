@@ -35,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/HomeController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="184">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convention.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -52,8 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/HomeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
       </list>
     </option>
   </component>
@@ -160,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531358281262</updated>
-      <workItem from="1531358282542" duration="2418000" />
+      <workItem from="1531358282542" duration="3070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2418000" />
+    <option name="totallyTimeSpent" value="3070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -199,16 +218,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -228,8 +237,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/HomeController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="184">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
